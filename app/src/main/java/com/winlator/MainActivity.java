@@ -200,6 +200,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.menu_item_settings:
                 showFragment(new SettingsFragment());
                 break;
+            case R.id.menu_item_steam:
+                showFragment(new SteamFragment());
+                break;
             case R.id.menu_item_about:
                 (new AboutDialog(this)).show();
                 break;
